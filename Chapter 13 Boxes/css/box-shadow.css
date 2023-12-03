@@ -1,0 +1,32 @@
+p {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 217, 217);
+    display: inline-block;
+    margin: 15px;
+}
+p.b1 {
+    -mi-box-shadow: -5px -5px #777777;
+    -webkit-box-shadow: -5px -5px #777777;
+    box-shadow: -5px -5px #777777;
+}
+p.b2 {
+    -mi-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #777777;
+}
+p.b3 {
+    -mi-box-shadow: 5px 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px 5px #777777;
+}
+p.b4 {
+    -mi-box-shadow: 0px 0px 10px #777777;
+    -webkit-box-shadow: 0px 0px 10px #777777;
+    box-shadow: 0px 0px 10px #777777;
+}
+p.b5 {
+    -mi-box-shadow: inset 0px 0px 10px #777777;
+    -webkit-box-shadow: inset 0px 0px 10px #777777;
+    box-shadow: inset 0px 0px 10px #777777;
+}

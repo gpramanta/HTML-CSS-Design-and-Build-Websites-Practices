@@ -1,0 +1,12 @@
+td {
+    width: 10px;
+    height: 40px;
+    border: 3px solid #3186fd;
+    padding: 15px;
+}
+table.one {
+    empty-cells: show;
+}
+table.two {
+    empty-cells: hide;
+}

@@ -1,0 +1,13 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+h1 {
+    text-transform:uppercase;
+}
+h2 {
+    text-transform: lowercase;
+}
+.author {
+    text-transform: capitalize;
+}

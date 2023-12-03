@@ -1,0 +1,181 @@
+<html>
+    <title>Chapter 6: Tables</title>
+    <body>
+        <h1>Basic Table Structure</h1>
+        <table>
+            <tr>
+                <td>15</td>
+                <td>15</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>60</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>90</td>
+                <td>90</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1>Table Headings</h1>
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+            </tr>
+            <tr>
+                <th scope="row">Tickets sold:</th>
+                <td>120</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <th scope="row">Total sales:</th>
+                <td>$600</td>
+                <td>$675</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1>Spanning Columns</h1>
+        <table>
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Math</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">Gym</td>
+                <td>Home Ec</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1>Spanning Rows</h1>
+        <table>
+            <tr>
+                <th></th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </tr>
+            <tr>
+                <th>6pm - 7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>7pm - 8pm</th>
+                <td>Sport</td>
+                <td>Current Affairs</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1>Long Tables</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Income</th>
+                    <th>Expenditure</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1st January</th>
+                    <td>250</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <th>2nd January</th>
+                    <td>285</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <th>3rd January</th>
+                    <td>260</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <th>4th January</th>
+                    <td>290</td>
+                    <td>38</td>
+                </tr>
+                <tr>
+                    <th>5th January</th>
+                    <td>310</td>
+                    <td>115</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td>1395</td>
+                    <td>279</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr />
+
+        <h1>Old Code: Width & Spacing</h1>
+        <table width="400" cellpadding="10" cellspacing="5">
+            <tr>
+                <th width="150"></th>
+                <th>Withdrawn</th>
+                <th>Credit</th>
+                <th width="150">Balance</th>
+            </tr>
+            <tr>
+                <th>January</th>
+                <td>250.00</td>
+                <td>660.50</td>
+                <td>410.50</td>
+            </tr>
+            <tr>
+                <th>February</th>
+                <td>135.55</td>
+                <td>895.20</td>
+                <td>1170.15</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h1>Old Code: Border & Background</h1>
+        <table border="2" bgcolor="#efefef">
+            <tr>
+                <th width="150"></th>
+                <th>Withdrawn</th>
+                <th>Credit</th>
+                <th width="150" bgcolor="#cccccc">Balance</th>
+            </tr>
+            <tr>
+                <th>January</th>
+                <td>250.00</td>
+                <td>660.50</td>
+                <td bgcolor="#cccccc">410.50</td>
+            </tr>
+            <tr>
+                <th>February</th>
+                <td>135.55</td>
+                <td>895.20</td>
+                <td bgcolor="#cccccc">1170.15</td>
+            </tr>
+        </table>
+        <hr />
+    </body>
+</html>

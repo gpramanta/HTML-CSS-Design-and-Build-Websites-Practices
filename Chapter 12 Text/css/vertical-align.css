@@ -1,0 +1,18 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+#six-months {
+    width: 5cm;
+    height: 5cm;
+    vertical-align: text-top;
+}
+#one-year {
+    width: 5cm;
+    height: 5cm;
+    vertical-align: baseline;
+}
+#two-years {
+    width: 5cm;
+    height: 5cm;
+    vertical-align: text-bottom;
+}

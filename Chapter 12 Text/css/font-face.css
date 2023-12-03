@@ -1,0 +1,15 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'edu_tas_beginnerregular';
+    src: url('edutasbeginner-variablefont_wght-webfont.woff2') format('woff2'),
+         url('edutasbeginner-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1, h2 {
+    font-family:Edu TAS Beginner;
+}

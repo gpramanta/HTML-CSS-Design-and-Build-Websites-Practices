@@ -1,0 +1,14 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 200, 200);
+    padding: 20px;}
+/* color name */
+h1 {background-color:darkcyan;
+    color: white;
+    padding: inherit;}
+/* hex code */
+h2 {background-color:#ee3e80;
+    color: white;
+    padding: inherit;}
+
+p {background-color:white;
+    padding: inherit;}

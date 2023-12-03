@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #C8C8C8;
+    background-color: hsl(0,0%,78%);
+    padding: 20px;
+}
+h1 {
+    color: white;
+    background-color:rgb(2, 108, 108);
+    padding: inherit;
+    text-align: justify;
+}
+h2 {
+    color: white;
+    background-color: rgb(194, 8, 107);
+    padding: inherit;
+}
+p {
+    color: rgb(86, 86, 62);
+    background-color: #ffffff;
+    background-color: hsla(0,100%,100%,0.5);
+    padding: inherit;
+}

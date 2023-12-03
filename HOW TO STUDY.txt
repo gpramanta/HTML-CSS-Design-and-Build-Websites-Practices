@@ -1,0 +1,20 @@
+Almost every chapter has at least 2 files:
+
+1. File entitled with chapter name.
+   This file is used to write all codes from a chapter for practice purpose.
+
+2. File entitle "example".
+   This file contains an example / simple project that summarizes a chapter.
+
+3. Press Ctrl + u
+   For copying the example's HTML codes.
+
+IMPORTANT PAGES
+1. <meta> 192
+2. <div> i87
+3. Pseudo elements, classes 288+
+4. border 291, 304, 309
+
+SELECTORS
+238
+292

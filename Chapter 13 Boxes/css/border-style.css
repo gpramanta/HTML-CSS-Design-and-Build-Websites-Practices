@@ -1,0 +1,33 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    min-width: 150px;
+    max-width: 200px;
+    border: 1px solid black;
+    margin: 15px;
+    border-width: 4px;
+}
+p.box1 {
+    border-style: solid;
+}
+p.box2 {
+    border-style: dotted;
+}
+p.box3 {
+    border-style: dashed;
+}
+p.box4 {
+    border-style:double;
+}
+p.box5 {
+    border-style:groove;
+}
+p.box6 {
+    border-style:ridge;
+}
+p.box7 {
+    border-style:inset;
+}
+p.box8 {
+    border-style:outset;
+}

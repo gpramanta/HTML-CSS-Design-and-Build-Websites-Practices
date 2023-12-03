@@ -1,0 +1,158 @@
+body {
+    border: 5px double black;
+}
+
+/* Head1 */
+.head1 {
+    width: 940px;
+    height: 80px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    margin: 0px auto 10px auto;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 25px;
+    padding-bottom: 40px;
+
+}
+#the {
+    font-size: 19px;
+    font-weight:500;
+}
+#analog {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+#specialists {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+/* Head2 */
+.head2 {
+    width: 920px;
+    height: 30px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+}
+#home {
+    position: absolute; left: 230px;
+}
+#fsale {
+    position: absolute; left: 390px;
+}
+#repairs {
+    position: absolute; left: 605px;
+}
+#about {
+    position: absolute; right: 430px;
+}
+#contact {
+    position: absolute; right: 230px;
+}
+/* Head2: Home */
+a[id="home"]:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="home"]:visited {
+    color: black;
+}
+a[id="home"]:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="home"]:active {
+    color: darkcyan;
+}
+/* Head2: For Sale */
+a[id="fsale"]:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="fsale"]:visited {
+    color: black;
+}
+a[id="fsale"]:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="fsale"]:active {
+    color: darkcyan;
+}
+/* Head2: Repairs */
+a[id="repairs"]:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="repairs"]:visited {
+    color: black;
+}
+a[id="repairs"]:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="repairs"]:active {
+    color: darkcyan;
+}
+/* Head2: About */
+a[id="about"]:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="about"]:visited {
+    color: black;
+}
+a[id="about"]:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="about"]:active {
+    color: darkcyan;
+}
+/* Head2: Contact */
+a[id="contact"]:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="contact"]:visited {
+    color: black;
+}
+a[id="contact"]:hover {
+    color: deeppink;
+    text-decoration: none;
+}
+a[id="contact"]:active {
+    color: darkcyan;
+}
+
+/* Pictures */
+#one {
+    width: 313px;
+    height: 313px;
+    position: relative; left: 158px;
+}
+#two {
+    width: 313px;
+    height: 313px;
+    position: relative; left: 154px;
+}
+#three {
+    width: 313px;
+    height: 313px;
+    position: relative; left: 150px;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 600;
+    width: 940px;
+    height: 40px;
+    margin: 10px auto 10px auto;
+}

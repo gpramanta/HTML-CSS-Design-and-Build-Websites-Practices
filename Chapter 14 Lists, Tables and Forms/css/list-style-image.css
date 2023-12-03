@@ -1,0 +1,9 @@
+ul {
+    list-style-image: url("/images/star2.png");
+}
+li {
+    margin: 10px 0px 30px 10px;
+    width: 130px;
+    height: 10px;
+    text-align: left;
+}

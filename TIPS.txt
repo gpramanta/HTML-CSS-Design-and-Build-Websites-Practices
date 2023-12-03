@@ -1,0 +1,8 @@
+1. ADDING IMAGE IN CSS
+Make sure to use the following example:
+
+ul {
+    list-style-image: url("/images/star2.png");
+}
+
+It is important to add "/" as the first character.
